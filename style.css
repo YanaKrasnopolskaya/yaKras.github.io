@@ -189,6 +189,9 @@ img {
 .sale__item_big {
     grid-column: 1 / -1;
 }
+.sale__img{
+   width: 100%;
+}
 
 .sale__text {
     font-style: normal;
@@ -266,7 +269,7 @@ img {
 .product-box__content {
     margin-top: 48px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 360px);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     gap: 30px;
 }
@@ -336,7 +339,6 @@ img {
     padding-bottom: 104px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     
@@ -370,6 +372,7 @@ img {
 .content__down {
     background: rgba(244, 244, 244, 0.7);
     background-image: url('image\\photo subscribe.jpeg');
+    background-size: 100% 100%;
     padding-top: 104px;
     padding-bottom: 104px;
     display: flex;
@@ -443,7 +446,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    max-width: 1600px;
+    max-width: 100%;
     min-height: 79px;
 }
 
@@ -483,7 +486,7 @@ img {
 }
 
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
     .header {
         padding-left: 0px;
@@ -515,8 +518,6 @@ img {
     }
 
     .center {
-        padding-left: calc(50% - 386px);
-        padding-right: calc(50% - 386px);
         margin: 0px 16px;
     }
 
@@ -528,10 +529,11 @@ img {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin: 20px;
+        
     }
 
     .product__box {
-        padding-bottom: 0px;
+        padding: 0px;
     }
 
     .content__down {
@@ -564,16 +566,19 @@ img {
         align-content: center;
         padding-top: 48px;
         padding-bottom: 64px;
+        flex-wrap: wrap;
     }
     #square1{
         background: rgb(241, 109, 127);
     }
 }
 
-@media (max-width: 767px) {
+@media  (max-width: 767px) {
 
     .header {
         justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     .header__left {
@@ -630,6 +635,7 @@ img {
 
     .product-box__content {
         grid-template-columns: repeat(1, 1fr);
+        margin: 0px;
     }
 
     .product__box {
@@ -682,5 +688,8 @@ img {
     }
     #square1{
         background: rgb(241, 109, 127);
+    }
+    .advantages{
+        flex-wrap: wrap;
     }
 }
