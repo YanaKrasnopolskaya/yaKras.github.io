@@ -72,6 +72,7 @@ img {
     padding: 32px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    z-index:99999999
 }
 
 .mobile-menu__heading {
