@@ -470,13 +470,13 @@ img {
     align-items: center;
 }
 
-#square {
+.square {
     width: 31.45px;
     height: 32px;
     background: rgb(255, 255, 255);
 }
 
-#square1 {
+.square1 {
     width: 31.45px;
     height: 32px;
     background: rgb(255, 255, 255);

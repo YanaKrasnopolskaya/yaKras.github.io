@@ -81,7 +81,7 @@
         padding-bottom: 64px;
         flex-wrap: wrap;
     }
-    #square1{
+    .square1{
         background: rgb(241, 109, 127);
     }
 }
