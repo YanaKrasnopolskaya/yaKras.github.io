@@ -1,0 +1,120 @@
+@media  (max-width: 767px) {
+
+    .header {
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header__left {
+        padding-left: 16px;
+    }
+
+    .header__right {
+        padding-right: 16px;
+    }
+
+    .header__link-site {
+        display: none;
+    }
+
+    .promo {
+        justify-content: center;
+    }
+
+    .promo__img {
+        display: none;
+    }
+
+    .promo__title {
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 40px;
+
+    }
+
+    .promo__heading {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .promo__content {
+        margin-bottom: 149px;
+        padding-right: 10px;
+        text-align: left;
+
+    }
+
+    .sale {
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 64px;
+    }
+
+    .sale__img {
+        min-height: 111px;
+    }
+
+    .product-box__text {
+        font-size: 12px;
+    }
+
+    .product-box__content {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 16px;
+    }
+
+    .product__box {
+        padding-bottom: 0px;
+    }
+
+    .product__all {
+        margin: 15px 39px 14px 39px;
+    }
+
+    .all {
+        padding-bottom: 85px;
+    }
+
+    .product__add {
+        top: 120px;
+        left: 55px;
+    }
+    .content__advantages{
+        max-width: 320px;
+    }
+    .content-text__advantages{
+        padding: 0px 15px;
+    }
+    .form{
+        width: 200px;
+        height: 40px;
+    }
+    .form__link{
+        width: 80px;
+        height: 40px;
+    }
+    .text__down{
+        max-width: 80%;
+    }
+    .text__down2{
+        font-size: 20px;
+        line-height: 90%;
+    }
+    .text__down3{
+        font-size: 14px;
+        max-width: 300px;
+        padding-bottom: 10px;
+    }
+    .footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #square1{
+        background: rgb(241, 109, 127);
+    }
+    .advantages{
+        flex-wrap: wrap;
+    }
+}

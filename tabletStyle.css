@@ -1,0 +1,87 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-around;
+    }
+
+    .promo {
+
+        padding-left: calc(50% - 400px);
+        padding-right: calc(50% - 400px);
+    }
+
+    .promo__content {
+        padding-left: 39px;
+    }
+
+    .promo__title {
+        font-size: 44px;
+        
+    }
+
+    .promo__heading {
+        font-size: 24px;
+    }
+
+    .promo__heading2 {
+        font-size: 24px;
+    }
+
+    .center {
+        margin: 0px 16px;
+    }
+
+    .sale {
+        gap: 19px;
+    }
+
+    .product-box__content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        margin: 20px;
+        
+    }
+
+    .product__box {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .content__down {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+
+    .text__down {
+        width: 359.45px;
+    }
+
+    .img__down {
+        background-size: 100%;
+    }
+
+    .block__info {
+        gap: 2px;
+    }
+
+    .footer {
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        align-content: center;
+        padding-top: 48px;
+        padding-bottom: 64px;
+        flex-wrap: wrap;
+    }
+    #square1{
+        background: rgb(241, 109, 127);
+    }
+}
